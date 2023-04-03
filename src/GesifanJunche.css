@@ -1,0 +1,79 @@
+li{
+    list-style: none;
+}
+
+.sinmungo-btn {
+    width: 200px;
+    height: 30px;
+    background-color: #2271c6;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.menu-three {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #2271c6;
+    border-radius: 30px;
+    cursor: pointer ;
+    font-weight: bold;
+    transition: all 400ms ease-in-out;
+
+}
+
+.menu-three:hover {
+    background-color: #2271c6;
+    color: #fff;
+}
+
+.bin {
+    height: 100px;
+}
+
+.cancle-btn{
+    width: 200px;
+    height: 30px;
+}
+
+.uplode-btn {
+   width: 200px;
+   height: 30px;
+   color: #fff;
+   background-color: #2271c6;
+   margin-left: 20px;
+}
+
+.gesifan-box.on{
+    display: none;
+}
+
+.Gesifanpage {
+    display: none;
+}
+
+.Gesifanpage.on{
+    display: block;
+    z-index: 100;
+}
+
+.Gesifangongji {
+    display: none;
+}
+
+.Gesifangongji.on{
+    display: block;
+    z-index: 100;
+}
+
+.Gesifan-sort{
+    width: 1000px;
+    height: 100px;
+    display: flex;        
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
